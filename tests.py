@@ -1,6 +1,3 @@
-import pytest
-import subprocess
-import sys
 from ccwc import cli
 from click.testing import CliRunner
 

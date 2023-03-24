@@ -4,10 +4,7 @@ Following John Crickett code challenge. Original post is on [LinkedIn](https://w
 Pipenv is used for virtual env. To install requirements do following
 ```
 pipenv install
-```
-To run tests
-```
-pytest -v tests.py
+pipenv shell
 ```
 
 To make a terminal tool we use setuptools
@@ -28,3 +25,7 @@ flags are the same as for linux `wc` utility. Check manpage
 man wc
 ```
 
+To run tests
+```
+pytest -v tests.py
+```
